@@ -9,7 +9,7 @@ August 1, 2019
 
 <img src="EUFlagwithText2.png" width="30%" height="20%" style="display: block; margin: auto auto auto 0;" />
 
-![alt-text-1](EUFlagwithText2 "title-1") ![alt-text-2](MIKELogo.png "title-2")
+![alt-text-1](UNCiteslogo.png "title-1") ![alt-text-2](MIKELogo.png "title-2") ![alt-text-2](EUFlagwithText2.png "title-2")
 
 
 ### INTRODUCTION
