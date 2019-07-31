@@ -1,4 +1,4 @@
-PIKE TREND ANALYSIS USING THE LEAST-SQUARES MEANS APPROACH
+PIKE TREND ANALYSIS USING THE LEAST-SQUARES MEANS APPROACH IN R
 ================
 CITES MIKE PROGRAMME – CENTRAL COORDINATION UNIT (CCU)
 August 1, 2019
@@ -6,11 +6,19 @@ August 1, 2019
 <p> <img src="UNCiteslogo.png" width="10%" height="100%" style="display: block; margin: auto auto auto 0;" align="top"/> <img src="MIKELogo.png" width="25%" height="100%" style="display: block; margin: auto auto auto 0;" align="botom"/> <img src="EUFlagwithText2.png" width="12%" height="12%" style="display: block; margin: auto auto auto 0;" align="right"/>  </p>
 
 
-- <img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " /> 
-- <img src="https://latex.codecogs.com/gif.latex?s=\text { sensor reading }  " /> 
-- <img src="https://latex.codecogs.com/gif.latex?P(s | O_t )=\text { Probability of a sensor reading value when sleep onset is observed at a time bin } t " />
+#### INTRODUCTION
 
-### INTRODUCTION
+This repository contains the R script used to analyse data from the  
+[Monitoring the Illegal Killing of Elephants (MIKE) Programme](https://www.cites.org/eng/prog/mike/index.php). MIKE is a site-based system designed to monitor trends in the illegal killing of elephants, build management capacity and provide information to help range States make appropriate management and enforcement decisions.
+
+The R code can be downloaded from the above RCODE subdirectoy. The script deatils the MIKE analytical method used to determine PIKE trends for Africa and its subregion and for Asia.  
+
+The is a site-based system designed to monitor trends in the illegal killing of elephants, build management capacity and provide information to help range States make appropriate management and enforcement decisions. to produce outputs for reports to the Convention for International Trade in Endangered Species of Wild Fauna and Flora (CITES)
+
+R script for analysis of MIKE data for reporting to CITES
+
+
+### BACKGROUND
 
 MIKE analytical method used to determine PIKE trends as reported to the
 15th, 16th, 17th and 18th meetings of the Conference of the Parties to
