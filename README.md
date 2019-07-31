@@ -9,6 +9,11 @@ Untitled
 
 
 
+PIKE TREND ANALYSIS USING THE LEAST-SQUARES MEANS APPROACH
+================
+CITES MIKE PROGRAMME – CENTRAL COORDINATION UNIT (CCU)
+August 1, 2019
+
 ### INTRODUCTION
 
 MIKE analytical method used to determine PIKE trends as reported to the
@@ -389,7 +394,7 @@ barplot2(fw_lsmns$coef[,1], names.arg=fw_lsmns$grid[,1],
          ylab='Estimated PIKE',col="tan2")
 ```
 
-![](MMMeansGitHUB_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![](MMMeansGitHUB_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 
 ### Continental PIKE Estimate for Asia
 
@@ -447,4 +452,3 @@ Means. R package version 1.3.2.
 Søren Højsgaard and Ulrich Halekoh. 2018. doBy: Groupwise Statistics,
 LSmeans, Linear Contrasts, Utilities. R package version 4.6-2.
 <https://CRAN.R-project.org/package=doBy>
-
