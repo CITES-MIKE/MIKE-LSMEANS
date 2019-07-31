@@ -5,10 +5,47 @@ August 1, 2019
 
 <p> <img src="UNCiteslogo.png" width="10%" height="100%" style="display: block; margin: auto auto auto 0;" align="top"/> <img src="MIKELogo.png" width="25%" height="100%" style="display: block; margin: auto auto auto 0;" align="botom"/> <img src="EUFlagwithText2.png" width="12%" height="12%" style="display: block; margin: auto auto auto 0;" align="right"/>  </p>
 
-<script type="text/javascript" async
-src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? 
-config=TeX-MML-AM_CHTML"
-</script>
+// ==UserScript==
+// @name           Run MathJax in Github
+// @namespace      http://www.mathjax.org/
+// @description    Runs MathJax on any page in github.com
+// @include        http://github.com/*
+// @include        https://github.com/*
+// ==/UserScript==
+
+/*****************************************************************/
+
+(function () {
+
+  function LoadMathJax() {
+    if (!window.MathJax) {
+      if (document.body.innerHTML.match(/$|\\\[|\\\(|<([a-z]+:)math/)) {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = "https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+        script.text = [
+          "MathJax.Hub.Config({",
+          "  tex2jax: {inlineMath: [['$','$'],['\\\\\(','\\\\\)']]}",
+          "});"
+        ].join("\n");
+        var parent = (document.head || document.body || document.documentElement);
+        parent.appendChild(script);
+      }
+    }
+  };
+
+  var script = document.createElement("script");
+  script.type = "text/javascript";
+  script.text = "(" + LoadMathJax + ")()";
+  var parent = (document.head || document.body || document.documentElement);
+  setTimeout(function () {
+    parent.appendChild(script);
+    parent.removeChild(script);
+  },0);
+
+})();
+
+
 
 ### INTRODUCTION
 
