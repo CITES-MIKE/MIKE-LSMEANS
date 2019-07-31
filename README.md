@@ -3,9 +3,7 @@ PIKE TREND ANALYSIS USING THE LEAST-SQUARES MEANS APPROACH
 CITES MIKE PROGRAMME – CENTRAL COORDINATION UNIT (CCU)
 August 1, 2019
 
-<img src="UNCiteslogo.png" width="10%" height="100%" style="display: block; margin: auto auto auto 0;" />
-
-<img src="MIKELogo.png" width="25%" height="100%" style="display: block; margin: auto auto auto 0;" /> 
+<img src="UNCiteslogo.png" width="10%" height="100%" style="display: block; margin: auto auto auto 0;" /> <img src="MIKELogo.png" width="25%" height="100%" style="display: block; margin: auto auto auto 0;" /> 
 
 <img src="EUFlagwithText2.png" width="30%" height="20%" style="display: block; margin: auto auto auto 0;" />
 
