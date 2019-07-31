@@ -60,7 +60,7 @@ Illegally Killed Elephants (PIKE), which is calculated as the number of
 illegally killed elephants found divided by the total number of elephant
 carcasses encountered, aggregated by site and across year:
 
-\(PIKE_{st} = {IC_{st}\over TC_{st}},\)
+$\(PIKE_{st} = {IC_{st}\over TC_{st}},\)$
 
 where the IC is the number of illegally killed carcasses and TC is the
 total number of carcasses detected. The subscript s refers to site and t
