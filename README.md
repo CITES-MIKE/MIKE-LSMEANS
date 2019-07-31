@@ -5,6 +5,10 @@ August 1, 2019
 
 <p> <img src="UNCiteslogo.png" width="10%" height="100%" style="display: block; margin: auto auto auto 0;" align="top"/> <img src="MIKELogo.png" width="25%" height="100%" style="display: block; margin: auto auto auto 0;" align="botom"/> <img src="EUFlagwithText2.png" width="12%" height="12%" style="display: block; margin: auto auto auto 0;" align="right"/>  </p>
 
+<script type="text/javascript" async
+src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? 
+config=TeX-MML-AM_CHTML"
+</script>
 
 ### INTRODUCTION
 
