@@ -8,8 +8,7 @@ August 1, 2019
 
 #### INTRODUCTION
 
-This repository contains the R script used to analyse data from the  
-[Monitoring the Illegal Killing of Elephants (MIKE) Programme](https://www.cites.org/eng/prog/mike/index.php). MIKE is a site-based system designed to monitor trends in the illegal killing of elephants, build management capacity and provide information to help range States make appropriate management and enforcement decisions.
+This repository contains the R script used to analyse data from the  [Monitoring the Illegal Killing of Elephants (MIKE) Programme](https://www.cites.org/eng/prog/mike/index.php). MIKE is a site-based system designed to monitor trends in the illegal killing of elephants, build management capacity and provide information to help range States make appropriate management and enforcement decisions.
 
 The R code can be downloaded from the above RCODE subdirectoy. The script deatils the MIKE analytical method used to determine PIKE trends for Africa and its subregion and for Asia.  
 
