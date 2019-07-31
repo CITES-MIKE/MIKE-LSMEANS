@@ -1,5 +1,9 @@
-Implementation in R
--------------------
+Untitled
+================
+mk
+2019-05-22
+
+## Implementation in R
 
 The R code for LS means approach for analyzing the Monitoring of the
 Illegal Killing of Elephants (MIKE) carcass data to derive continental
@@ -17,10 +21,9 @@ library(dplyr)  # for data manipulation
 library(knitr)
 ```
 
-To simplify the coding, a function *P**I**K**E*.*L**S**m**e**a**n**s* is
-defined. This user-defined function calculates LS means estimates, the
-90% confidence interval, and trims the estimates so that they fall
-between 0-1.
+To simplify the coding, a function \(PIKE.LSmeans\) is defined. This
+user-defined function calculates LS means estimates, the 90% confidence
+interval, and trims the estimates so that they fall between 0-1.
 
 ``` r
 #### Define function PIKE.LSmeans  #####
@@ -66,10 +69,10 @@ For the analysis a single data file is required. It contains aggregated
 total number of carcasses and the total number that were illegally
 killed per year for a specific site. This data is publicly available
 from the following site:
-<a href="https://cites.org/eng/prog/mike/data_and_reports#MIKE%20Data%20Analysis" class="uri">https://cites.org/eng/prog/mike/data_and_reports#MIKE%20Data%20Analysis</a>
+<https://cites.org/eng/prog/mike/data_and_reports#MIKE%20Data%20Analysis>
 
-The data is read in using the *r**e**a**d*.*c**s**v*() function and
-stored in a data frame (*c**a**r**c**d**a**t*):
+The data is read in using the \(read.csv()\) function and stored in a
+data frame (\(carcdat\)):
 
 ``` r
 # set file name
@@ -81,10 +84,10 @@ As part of preparing the data the variable names are shorten and rows
 where the total number of carcasses equals zero are excluded. Data from
 2003 and onwards is used in the analysis. The MIKE KSG and any sites
 that have reported only once, and the new MIKE site are not part of the
-analysis. *P**I**K**E* is calculated applying the following equation:
-$$PIKE = \\frac{\\text{Number of carcasses killed illegally}}{\\text{Total number of carcasses}}$$
+analysis. \(PIKE\) is calculated applying the following equation:
+\[PIKE = \frac{\text{Number of carcasses killed illegally}}{\text{Total number of carcasses}}\]
 
-and a new column *y**r* (year) is assigned as a categorical variable.
+and a new column \(yr\) (year) is assigned as a categorical variable.
 Finally, MIKE sites from Africa are selected.
 
 ``` r
@@ -130,8 +133,8 @@ carcdat  <- droplevels(carcdat)
 Apply the LS means to the weighted linear regression model, where PIKE
 is the response variable and year (yr) and sub-region (subregionid) are
 factors. The weights in the linear model are the total number of
-carcasses (totcars). The LS means *P**I**K**E* estimates are saved in
-file “output/af\_lsmns\_90CL.csv”.
+carcasses (totcars). The LS means \(PIKE\) estimates are saved in file
+“output/af\_lsmns\_90CL.csv”.
 
 ``` r
 #  weighted linear regression model with covariates subregion and year, 
@@ -167,7 +170,7 @@ barplot2(af_lsmns$coef[,1], names.arg=af_lsmns$grid[,1],
          ylab='Estimated PIKE', col="tan2")
 ```
 
-![](MarginaMeansRmarkdownDocument_files/figure-markdown_github/PlotAfrTrend-1.png)
+![](testgithub_files/figure-gfm/PlotAfrTrend-1.png)<!-- -->
 
 ### Subregional PIKE estimates
 
@@ -219,7 +222,8 @@ write.table(sr_lsmns,"output/sr_lsmsn_90CL.csv",sep=',',row.names=F)
 
 #### Plot subregional trends
 
-Plot trends for Central, Eastern, Southern and West Africa.
+Plot trends for Central, Eastern, Southern and West
+Africa.
 
 ``` r
 #plot the subregional results using the function barplot2() from the gplots package. 
@@ -270,7 +274,7 @@ barplot2(fw_lsmns$coef[,1], names.arg=fw_lsmns$grid[,1],
          ylab='Estimated PIKE',col="tan2")
 ```
 
-![](MarginaMeansRmarkdownDocument_files/figure-markdown_github/unnamed-chunk-4-1.png)
+![](testgithub_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
 
 ### Continental PIKE Estimate for Asia
 
@@ -312,6 +316,4 @@ barplot2(as_lsmns$coef[,1], names.arg=as_lsmns$grid[,1],
          ylab='Estimated PIKE', col="tan2")
 ```
 
-![](MarginaMeansRmarkdownDocument_files/figure-markdown_github/PlotAsiaTrend-1.png)
-
-
+![](testgithub_files/figure-gfm/PlotAsiaTrend-1.png)<!-- -->
