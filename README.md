@@ -1,10 +1,10 @@
+<p> <img src="UNCiteslogo.png" width="10%" height="100%" style="display: block; margin: auto auto auto 0;" align="top"/> <img src="MIKELogo.png" width="25%" height="100%" style="display: block; margin: auto auto auto 0;" align="botom"/>   </p>
+
 PIKE TREND ANALYSIS USING THE LEAST-SQUARES MEANS APPROACH IN R
 ================
 CITES MIKE PROGRAMME – CENTRAL COORDINATION UNIT (CCU) <br/>
 August 1, 2019
-
-<p> <img src="UNCiteslogo.png" width="10%" height="100%" style="display: block; margin: auto auto auto 0;" align="top"/> <img src="MIKELogo.png" width="25%" height="100%" style="display: block; margin: auto auto auto 0;" align="botom"/>   </p>
-
+   
 **R script for analysis of MIKE data for reporting to CITES**
 
 This repository contains R script for analyse of data from the [Monitoring the Illegal Killing of Elephants (MIKE) Programme](https://www.cites.org/eng/prog/mike/index.php) to produce outputs for reports to the [Convention for International Trade in Endangered Species of Wild Fauna and Flora (CITES)]( https://cites.org/eng).
