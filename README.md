@@ -32,4 +32,4 @@ And the 61st, 62nd, 65th, 66th, 69th and 70th meetings of the CITES Standing Com
 *	SC70, Russian Federation, in document SC70 Doc. 49.1 and its Annex 1
 
 
-<img src="EUFlagwithText2.png" width="12%" height="12%" style="display: block; margin: auto auto auto 0;" align="center"/>
+<img src="EUFlagwithText2.png" width="20%" height="20%" style="display: block; margin: auto auto auto 0;" align="center"/>
