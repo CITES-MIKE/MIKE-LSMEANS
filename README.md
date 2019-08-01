@@ -5,13 +5,13 @@ PIKE TREND ANALYSIS USING THE LEAST-SQUARES MEANS APPROACH IN R
 CITES MIKE PROGRAMME – CENTRAL COORDINATION UNIT (CCU) <br/>
 August 1, 2019
    
-**R script for analysis of MIKE data for reporting to CITES**
+**R SCRIPT FOR ANALYSIS OF MIKE DATA FOR REPORTING TO CITES**
 
 This repository contains R script for analyse of data from the [Monitoring the Illegal Killing of Elephants (MIKE) Programme](https://www.cites.org/eng/prog/mike/index.php) to produce outputs for reports to the [Convention for International Trade in Endangered Species of Wild Fauna and Flora (CITES)]( https://cites.org/eng).
 
 The MIKE Programme is a site-based system designed to monitor trends in the illegal killing of elephants, build management capacity and provide information to help range States make appropriate management and enforcement decisions. MIKE evaluates relative poaching levels based on the Proportion of Illegally Killed Elephants (PIKE), which is calculated as the number of illegally killed elephants found divided by the total number of elephant carcasses encountered, aggregated by site and across year.
 
-PIKE trend methodology, based on least-squares means (LSMEANS) approach,  is documented  in the R Markdown document: *190801_PIKETrendUsingLSMEANS.Rmd*, under the subdirectory *RCODE*. The R markdown document contains embedded R code for continental-wide  PIKE trend analysis  Africa and Asia plus, at the  subregional level,  for Central, West, East and Southern Africa.  In addition the document has information about the MIKE programme, MIKE data set, and the PIKE indicator.  A sample report generated from the  R markdown document is stored in a  PDF file *190801_PIKETrendUsingLSMEANS.pdf*.
+PIKE trend analysis is modelled using least-squares means (LSMEANS) approach and is detailed in the R Markdown document: *190801_PIKETrendUsingLSMEANS.Rmd*, under the subdirectory *RCODE*. The R markdown document contains embedded R code for continental-wide  PIKE trend analysis for Africa and Asia plus, at the  subregional level,  for Central, West, East and Southern Africa.  In addition the document has information about the MIKE programme, MIKE data set, and the PIKE indicator.  A sample report generated from the  R markdown document is stored in a  PDF file *190801_PIKETrendUsingLSMEANS.pdf*.
 
 PIKE trend, based on least-squares means (LSMEANS), is reported to the 15th, 16th, 17th and 18th meetings of the Conference of the Parties to CITES:
 
