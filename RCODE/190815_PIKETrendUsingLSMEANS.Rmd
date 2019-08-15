@@ -26,7 +26,7 @@ $PIKE_{st} = {IC_{st}\over TC_{st}},$
 
 where the IC is the number of illegally killed carcasses and TC is the total number of carcasses detected. The subscript s refers to site and t to year. PIKE is assumed to represent an effort free metric of the relative causes of elephant death in a population. 
  
-While PIKE provides a robust measure of broad-scale poaching trends, it may be affected by a number of potential biases related to data quality, variation in carcass detection probabilities, variation in natural mortality rates and other factors (Burns et al. 2011).
+While PIKE provides a robust measure of broad-scale poaching trends, it may be affected by a number of potential biases related to data quality, variation in carcass detection probabilities, variation in natural mortality rates and other factors (Burn et al. 2011).
 
 ### CONTINENTAL AND REGIONAL PIKE TREND
 
