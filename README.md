@@ -13,21 +13,6 @@ The MIKE Programme is a site-based system designed to monitor trends in the ille
 
 PIKE trend analysis is modelled using least-squares means (LSMEANS) approach and is detailed in the R Markdown document: [190801_PIKETrendUsingLSMEANS.Rmd](https://github.com/CITES-MIKE/MIKE-LSMEANS/blob/master/RCODE/190801_PIKETrendUsingLSMEANS.Rmd), under the subdirectory [RCODE](https://github.com/CITES-MIKE/MIKE-LSMEANS/tree/master/RCODE). The R markdown document contains embedded R code for continental-wide  PIKE trend analysis for Africa and Asia plus, at the  subregional level,  for Central, West, East and Southern Africa.  In addition the document has information about the MIKE programme, MIKE data set, and the PIKE indicator.  A sample report generated from the  R markdown document is stored in a  PDF file [190801_PIKETrendUsingLSMEANS.pdf](https://github.com/CITES-MIKE/MIKE-LSMEANS/blob/master/190801_PIKETrendUsingLSMEANS.pdf).
 
-PIKE trend, based on least-squares means (LSMEANS), is reported to the 15th, 16th, 17th and 18th meetings of the Conference of the Parties to CITES:
-
-* CoP15, Doha, 2010, in document CoP15 Doc. 44.2 (Rev. 1); 
-* CoP16, Bangkok, 2013, in document CoP16 Doc. 53.1; 
-* CoP17, Johannesburg, 2016, in document CoP17 Doc. 57.5; and 
-* CoP18, Geneva, 2019, in document CoP18 Doc. 69.2 and CoP18 Doc. 69.2 Addendum
-
-And the 61st, 62nd, 65th, 66th, 69th and 70th meetings of the CITES Standing Committee:
-
-* SC61, Geneva, 2011, in document SC61 Doc 44.2 (Rev. 1) and its Annex 1 
-* SC62, Geneva, 2012, in document SC62 Doc 46.1 (Rev. 1) and its Annex 1
-* SC65, Geneva, 2014, in document SC65 Doc. 42.1
-* SC66, Geneva, 2016, in document SC66 Doc. 47.1
-* SC69, Geneva, 2017, in document SC69 Doc. 51.1 and its Annex
-* SC70, Russian Federation, in document SC70 Doc. 49.1 and its Annex 1
-
+The analytical approach documented here has been used for the PIKE trend analysis in the reports to the two previous meetings of the Conference of the Parties (CoP16, Bangkok, 2013 in document CoP16 Doc. 53.1 and CoP17, Johannesburg, 2016, in document CoP17Doc. 57.5), and to meetings of the Standing Committee (SC62, Geneva, July 2012, in document SC62 Doc. 46.1 (Rev. 1), SC65, Geneva, July 2014, in document SC65 Doc. 42.1, SC66, Geneva, January 2016, in document SC66 Doc. 47.1 , SC69, Geneva, November 2017, in document SC69 Doc. 51.1 and SC70, Sochi, October 2018, in document SC70 Doc. 49.1).
 
 <img src="EUFlagwithText2.png" width="20%" height="20%" style="display: block; margin: auto auto auto 0;" align="center"/>
